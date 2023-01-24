@@ -3,7 +3,7 @@
 # Docker-Compose 
 
 Para generar el docker-compose, primero debemos buscar la imagen oficial de Odoo en DockerHub, donde encontraremos el código más simple y sin fallos para generarlo. Aquí podremos encontrar que para crear un docker-compose para la imagen de Odoo debemos prestar mucha atención en **depends on:** que es donde pondremos el nombre que le daremos al contenedor de la base de datos. Además de esto añadiremos el puerto que vamos a usar, este caso el 8069, y el nombre del contenedor.
-Para la imagen de Postgres lo más importante a tener en cuenta es el puerto que utilizaremos, esta vez el 5032, ya que por este puerto nos contectaremos a la misma, también usaremos su volumen para guardar los datos y, próximamente, crear el proyecto en PyCharm.
+Para la imagen de Postgres lo más importante a tener en cuenta es el puerto que utilizaremos, esta vez el 5032, ya que por este puerto nos contectaremos a la misma, también usaremos su volumen para guardar los datos y, próximamente, crear el proyecto en PyCharm. Nos podríamos encontrar con el caso de que el puerto 5032 se encuentre ocupado, podríamos solucionarlo en PowerShell ejecutando el comando **service postgres stop**.
   
   ![Screenshot_20230124_060324](https://user-images.githubusercontent.com/91608906/214359078-72f3ca9f-3703-45d1-98f3-43e1f8bf286f.png)
 
