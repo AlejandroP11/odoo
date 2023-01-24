@@ -9,10 +9,10 @@ Para la imagen de Postgres lo más importante a tener en cuenta es el puerto que
 
 Con este docker-compose solo nos quedaría lanzarlo con el comando **docker-compose up** y esperar a que se inicien nuestro servicios.
 
-#PyCharm 
+# PyCharm 
 Una vez iniciados abriremos un nuevo proyecto en PyCharm, para esto solo debemos abrir la carpeta en la que guardamos el volumen de nuestra base de datos.
 
-#Docker con PyCharm
+# Docker con PyCharm
 Para utilizar Docker primero debemos descargarlo como pluggin, pestaña que podremos encontrar dentro de la configuaración del proyecto. Una vez lo hayamos instalado, debemos ir a la pestaña de **Build, Execution, Deployment** y seleccionar Docker.
 
   ![Screenshot_20230124_052249](https://user-images.githubusercontent.com/91608906/214361394-02981614-ae0a-47c8-b309-6883faf4255c.png)
@@ -21,7 +21,7 @@ Con esto podemos encontrar Docker en la pestaña de servicios en la parte inferi
 
 ![Screenshot_20230124_052419](https://user-images.githubusercontent.com/91608906/214361862-7d4c7a3e-f137-4273-9664-9ad1deafd4cd.png)
 
-#Base de Datos
+# Base de Datos
 Con la base de datos tendremos que volver a utilizar un pluggin, debido a que, en mi caso por lo menos, PyCharm no cuenta con una pestaña predeterminada para estas. Volvemos a la pestaña de pluggins y encontraremos este en concreto: 
 
   ![Screenshot_20230124_052852](https://user-images.githubusercontent.com/91608906/214362257-f54ff259-5f20-4aa6-80a5-58530372eee9.png)
